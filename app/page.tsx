@@ -7,8 +7,8 @@ import Filterbar from './components/Filterbar';
 import Questionscard from './components/Questionscard';
 
 interface IQuestions {
-  character: string;
-  pinyin: string;
+  word: string;
+  kanji: string;
   answer: string;
   wrongAnswers: string[];
   topic: string;
@@ -24,7 +24,7 @@ export default function App() {
   const [isResultVisible, setIsResultVisible] = useState(true);
   const [isPinyinVisible, setIsPinyinVisible] = useState(true);
 
-  const [selectedType, setSelectedType] = useState('HSK Lesson');
+  const [selectedType, setSelectedType] = useState('Minna No Nihongo Lesson');
   const [selectedLesson, setSelectedLesson] = useState('All');
   const [options, setOptions] = useState<string[]>([]);
 
@@ -33,7 +33,7 @@ export default function App() {
   if (selectedLesson === 'All') {
     filteredQuizData = [...quizData];
   } else {
-    if (selectedType === 'HSK Lesson') {
+    if (selectedType === 'Minna No Nihongo Lesson') {
       filteredQuizData = quizData.filter((item) => item.lesson === selectedLesson);
     } else if (selectedType === 'Topic') {
       filteredQuizData = quizData.filter((item) => item.topic === selectedLesson);
@@ -91,7 +91,7 @@ export default function App() {
   }, [currentQuestionIndex, questions]);
 
   useEffect(() => {
-    if (selectedType === 'HSK Lesson') {
+    if (selectedType === 'Minna No Nihongo Lesson') {
       setOptions(
         Array.from(
           quizData
@@ -112,9 +112,9 @@ export default function App() {
   }, [selectedType]);
 
   return (
-    <div className='bg-[#FAF1E6] mx-auto h-screen md:w-screen lg:w-screen'>
+    <div className='bg-[#F5F9EA] mx-auto h-screen md:w-screen lg:w-screen'>
       <div className='flex flex-col justify-between'>
-        <header className='py-6 md:py-12 flex justify-center text-2xl'>Mandarin Quiz App</header>
+        <header className='py-6 md:py-12 flex justify-center text-2xl'>Nihongo Quiz App</header>
         <Filterbar
           selectedType={selectedType}
           setSelectedType={setSelectedType}

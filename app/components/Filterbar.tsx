@@ -26,12 +26,12 @@ export default function Filterbar({
             className='cursor-pointer p-2 rounded border border-solid border-gray-400 ml-2'
             value={selectedType}
             onChange={(e) => setSelectedType(e.target.value)}>
-            <option value='HSK Lesson'>HSK Lesson</option>
+            <option value='Minna No Nihongo Lesson'>Minna No Nihongo Lesson</option>
             <option value='Topic'>Topic</option>
           </select>
         </label>
         <label className='mb-2 mr-2 flex flex-row items-center text-sm md:mb-0 md:text-base'>
-          {selectedType === 'HSK Lesson' ? 'Select chapter: ' : 'Select topic: '}
+          {selectedType === 'Minna No Nihongo Lesson' ? 'Select lesson: ' : 'Select topic: '}
           <select
             className='cursor-pointer p-2 rounded border border-solid border-gray-400 ml-2'
             value={selectedLesson}
@@ -47,9 +47,9 @@ export default function Filterbar({
           </select>
         </label>
         <button
-          className='bg-[#B6C867] hover:bg-[#95a93d] rounded p-2 w-24 md:w-36 text-sm md:text-base'
+          className='bg-[#CD9FCC] hover:bg-[#BC7DBA] rounded p-2 w-24 md:w-36 text-sm md:text-base'
           onClick={() => setIsPinyinVisible(!isPinyinVisible)}>
-          {isPinyinVisible ? 'Hide' : 'Show'} Pinyin
+          {isPinyinVisible ? 'Hide' : 'Show'} Kanji
         </button>
       </div>
     </div>
