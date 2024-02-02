@@ -145,7 +145,7 @@ export const quizData = [
   },
   {
     word: 'れいじ',
-    kanji: null,
+    kanji: '',
     answer: "0 o'clock",
     wrongAnswers: ["1 o'clock", "3 o'clock", "5 o'clock"],
     topic: 'Date and Time',
@@ -153,7 +153,7 @@ export const quizData = [
   },
   {
     word: 'いちじ',
-    kanji: null,
+    kanji: '',
     answer: "1 o'clock",
     wrongAnswers: ["2 o'clock", "4 o'clock", "6 o'clock"],
     topic: 'Date and Time',
@@ -161,7 +161,7 @@ export const quizData = [
   },
   {
     word: 'にじ',
-    kanji: null,
+    kanji: '',
     answer: "2 o'clock",
     wrongAnswers: ["3 o'clock", "5 o'clock", "7 o'clock"],
     topic: 'Date and Time',
@@ -169,7 +169,7 @@ export const quizData = [
   },
   {
     word: 'さんじ',
-    kanji: null,
+    kanji: '',
     answer: "3 o'clock",
     wrongAnswers: ["4 o'clock", "6 o'clock", "8 o'clock"],
     topic: 'Date and Time',
@@ -177,7 +177,7 @@ export const quizData = [
   },
   {
     word: 'よじ',
-    kanji: null,
+    kanji: '',
     answer: "4 o'clock",
     wrongAnswers: ["5 o'clock", "7 o'clock", "9 o'clock"],
     topic: 'Date and Time',
@@ -185,7 +185,7 @@ export const quizData = [
   },
   {
     word: 'ごじ',
-    kanji: null,
+    kanji: '',
     answer: "5 o'clock",
     wrongAnswers: ["6 o'clock", "8 o'clock", "10 o'clock"],
     topic: 'Date and Time',
@@ -193,7 +193,7 @@ export const quizData = [
   },
   {
     word: 'ろくじ',
-    kanji: null,
+    kanji: '',
     answer: "6 o'clock",
     wrongAnswers: ["7 o'clock", "9 o'clock", "11 o'clock"],
     topic: 'Date and Time',
@@ -201,7 +201,7 @@ export const quizData = [
   },
   {
     word: 'しちじ',
-    kanji: null,
+    kanji: '',
     answer: "7 o'clock",
     wrongAnswers: ["8 o'clock", "10 o'clock", "12 o'clock"],
     topic: 'Date and Time',
@@ -209,7 +209,7 @@ export const quizData = [
   },
   {
     word: 'はちじ',
-    kanji: null,
+    kanji: '',
     answer: "8 o'clock",
     wrongAnswers: ["9 o'clock", "11 o'clock", "1 o'clock"],
     topic: 'Date and Time',
@@ -217,7 +217,7 @@ export const quizData = [
   },
   {
     word: 'くじ',
-    kanji: null,
+    kanji: '',
     answer: "9 o'clock",
     wrongAnswers: ["10 o'clock", "12 o'clock", "2 o'clock"],
     topic: 'Date and Time',
@@ -225,7 +225,7 @@ export const quizData = [
   },
   {
     word: 'じゅうじ',
-    kanji: null,
+    kanji: '',
     answer: "10 o'clock",
     wrongAnswers: ["11 o'clock", "1 o'clock", "3 o'clock"],
     topic: 'Date and Time',
@@ -233,7 +233,7 @@ export const quizData = [
   },
   {
     word: 'じゅういちじ',
-    kanji: null,
+    kanji: '',
     answer: "11 o'clock",
     wrongAnswers: ["12 o'clock", "2 o'clock", "4 o'clock"],
     topic: 'Date and Time',
@@ -241,7 +241,7 @@ export const quizData = [
   },
   {
     word: 'じゅうにじ',
-    kanji: null,
+    kanji: '',
     answer: "12 o'clock",
     wrongAnswers: ["1 o'clock", "3 o'clock", "5 o'clock"],
     topic: 'Date and Time',
